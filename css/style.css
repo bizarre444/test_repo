@@ -59,6 +59,23 @@ header {
     color: #F47821;
 }
 
+.btn_bord {
+    position: absolute;
+    width: 236px;
+    height: 54px;
+    left: 280px;
+    right: 426px;
+    top: 135px;
+    bottom: 0;
+    background: #878787;
+    opacity: 0;
+    border-radius: 111px;
+}
+
+.btn_bord:hover {
+    opacity: 0.05;
+}
+
 .btn_pl {
     width: 54px;
     height: 54px;
@@ -70,10 +87,6 @@ header {
     background: #878787;
     opacity: 0.05;
     border-radius: 111px;
-}
-
-.btn_pl:hover {
-    opacity: 0.3;
 }
 
 .plus_sign {
@@ -100,6 +113,10 @@ header {
     letter-spacing: 0.02em;
     text-transform: uppercase;
     color: #222222;
+}
+
+.btn_press:hover {
+    font-weight: bold;
 }
 
 /* main */
@@ -146,6 +163,7 @@ header {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
+    z-index: 100;
 }
 
 .box1 {
