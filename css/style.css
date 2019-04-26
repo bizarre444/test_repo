@@ -559,3 +559,273 @@ input[type='submit']:hover {
     font-weight: normal;
     font-size: 22px;
 }
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    .wrap, header, main, footer, .image, .different, .pluses, .pluses_inside {
+        width: 900px;
+    }
+    .header_inside {
+        left: 10%;
+    }
+    .image {
+        background-position: center;
+    }
+    .motivation {
+        width: 500px;
+        left: 25%;
+        height: 300px;
+    }
+    .box {
+        width: 250px;
+        height: 150px;
+    }
+    .box_head {
+        left: 5%;
+        top: 5%;
+    }
+    .box_inside {
+        font-size: 17px;
+        left: 5%;
+        top: 24%;
+        width: 225px;
+    }
+    .box2 {
+        left: 250px;
+    }
+    .box3 {
+        top: 150px;
+    }
+    .box4 {
+        top: 150px;
+        left: 250px;
+    }
+    .different_head {
+        left: 35%;
+    }
+    .different_inside {
+        left: 10%;
+    }
+    .pluses_head {
+        left: 15%;
+        top: -5%;
+    }
+    .pluses_inside {
+        left: 0;
+        top: 20px;
+    }
+    .pluses_main {
+        font-size: 15px;
+    }
+    .pluses_text {
+        font-size: 13px;
+        width: 270px;
+    }
+    .left {
+        left: 25px;
+    }
+    .center {
+        left: 320px;
+    }
+    .right {
+        left: 615px;
+    }
+    .footer_inside {
+        left: 0;
+    }
+    .footer_head {
+        left: 24%;
+        top: 4%;
+    }
+    .position1, .position2, .position3, .position4 {
+        left: 15%;
+    }
+    .position1 {
+        top: 10%;
+    }
+    .position2{
+        top: 25%;
+    }
+    .position3 {
+        top: 40%;
+    }
+    .position4 {
+        top: 55%;
+    }
+    #button {
+        width: 300px;
+        left: 35%;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 899px) {
+    .wrap, header, main, .main_inside, footer, .image, .different, .pluses, .pluses_inside {
+        width: 600px;
+    }
+    header {
+        height: 300px;
+    }
+    .header_inside {
+        left: 4%;
+        top: 5%;
+        width: 550px;
+        height: 280px;
+        position: relative;
+    }
+    .header_big {
+        font-size: 25px;
+        left: -15%;
+    }
+    .header_text {
+        width: 550px;
+    }
+    .btn_pl {
+        left: 35%;
+        top: 60%;
+    }
+    .plus_sign {
+        left: 38%;
+        top: 67%;
+    }
+    .btn_press {
+        left: 50%;
+        font-size: 13px;
+        width: 135px;
+        height: 50px;
+        top: 65%;
+    }
+    .image {
+        background-position: center;
+        top: 300px;
+        background-size: contain;
+        height: 200px;
+    }
+    .motivation {
+        width: 460px;
+        left: 14%;
+        height: 280px;
+        top: 11%;
+    }
+    .box {
+        width: 230px;
+        height: 140px;
+    }
+    .box_head {
+        left: 5%;
+        top: 5%;
+    }
+    .box_inside {
+        font-size: 17px;
+        left: 5%;
+        top: 24%;
+        width: 225px;
+    }
+    .box2 {
+        left: 230px;
+    }
+    .box3 {
+        top: 140px;
+    }
+    .box4 {
+        top: 140px;
+        left: 230px;
+    }
+    .different {
+        top: 20%;
+    }
+    .different_head {
+        left: 32%;
+        top: 5%;
+    }
+    .different_inside {
+        left: 1%;
+        width: 590px;
+        top: 15%;
+    }
+    .pluses {
+        top: 38%;
+        height: 500px;
+    }
+    .pluses_head {
+        left: 8%;
+        top: -5%;
+        font-size: 23px;
+    }
+    .pluses_inside {
+        left: 0;
+        top: 20px;
+    }
+    .pluses_main {
+        font-size: 14px;
+    }
+    .pluses_text {
+        font-size: 11px;
+        width: 200px;
+    }
+    .left {
+        left: 0;
+    }
+    .center {
+        left: 200px;
+    }
+    .right {
+        left: 400px;
+    }
+    footer {
+        top: 50%;
+    }
+    .footer_inside {
+        left: 0;
+    }
+    .footer_head {
+        left: 16%;
+        top: 2%;
+        font-size: 20px;
+    }
+    .position1, .position2, .position3, .position4 {
+        left: 10%;
+    }
+    .number {
+        width: 32px;
+        height: 32px;
+    }
+    .num {
+        top: 6%;
+        left: 2%;
+        font-size: 18px;
+    }
+    label {
+        top: 0px;
+    }
+    .line_form {
+        display: none;
+    }
+    input[type='text'], input[type='email'], #textarea {
+        top: 30%;
+        border-bottom: 1px solid gray;
+        width: 345px;
+        font-size: 15px;
+    }
+    #textarea {
+        top: 63%;
+    }
+    .textarea {
+        width: 345px;
+    }
+    .position1 {
+        top: 10%;
+    }
+    .position2{
+        top: 25%;
+    }
+    .position3 {
+        top: 40%;
+    }
+    .position4 {
+        top: 55%;
+    }
+    #button {
+        width: 300px;
+        left: 26%;
+        top: 77%;
+    }
+}
