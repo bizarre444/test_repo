@@ -8,14 +8,15 @@ html, body {
     position: relative;
     width: 1440px;
     height: 4046px;
-    background: #FFFFFF;
+    background: #F7F5FA;
     margin: auto;
 }
 
 header {
     height: 480px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin: auto;
+    background: #FFFFFF;
 }
 
 .header_inside {
@@ -24,7 +25,7 @@ header {
     height: 189px;
     left: 340px;
     top: 165px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .header_big {
@@ -55,7 +56,7 @@ header {
 }
 
 .orange {
-    color: orangered;
+    color: #F47821;
 }
 
 .btn_pl {
@@ -105,7 +106,7 @@ header {
 .main_inside {
     width: 1440px;
     height: 2435px;
-    border: 1px dashed darkorange;
+    /* border: 1px dashed darkorange; */
 }
 
 .image {
@@ -115,7 +116,7 @@ header {
     left: 0px;
     top: 480px;
     background: url(../img/image.png);
-    border: 1px dashed blue;
+    /* border: 1px dashed blue; */
 }
 
 .motivation {
@@ -124,7 +125,7 @@ header {
     height: 464px;
     left: 234px;
     top: 981px;
-    border: 1px dashed yellow;
+    /* border: 1px dashed yellow; */
 }
 
 .box {
@@ -132,8 +133,8 @@ header {
     width: 486px;
     height: 232px;
     background: #FFFFFF;
-    /* border: 1px solid #EDEDED; */
-    border: 1px solid blue;
+    border: 1px solid #EDEDED;
+    /* border: 1px solid blue; */
 }
 
 .box1 {
@@ -161,8 +162,24 @@ header {
     width: 337px;
     height: 121px;
     left: 60px;
+    top: 81px;
+    /* border: 1px solid black; */
+    font-family: DIN Pro;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    color: #222222;
+}
+
+.box_head {
+    font-family: DIN Pro;
+    font-size: 12px;
+    line-height: 19px;/* identical to box height */
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    left: 60px;
     top: 50px;
-    border: 1px solid black;
+    position: absolute;
 }
 
 .different {
@@ -172,7 +189,7 @@ header {
     left: 0px;
     top: 1525px;
     background: #FFFFFF;
-    border: 1px solid violet;
+    /* border: 1px solid violet; */
 }
 
 .different_inside {
@@ -180,8 +197,8 @@ header {
     width: 773px;
     height: 473px;
     left: 334px;
-    top: 1689px;
-    font-family: Roboto;
+    top: 164px;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -189,13 +206,28 @@ header {
     color: #4E4D53;
 }
 
+.different_head {
+    position: absolute;
+    width: 251px;
+    height: 60px;
+    left: 334px;
+    top: 80px;
+    font-family: DIN Pro;
+    font-size: 48px;
+    line-height: 60px;/* identical to box height */
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #222222;
+    margin: 0;
+}
+
 .pluses {
     position: absolute; /*group 22*/
     width: 1440px;
     height: 737px;
     left: 0px;
-    top: 1525px;
-    border: 1px solid gray;
+    top: 2263px;
+    /* border: 1px solid gray; */
 }
 
 .pluses_inside {
@@ -203,7 +235,79 @@ header {
     width: 1139px;
     height: 374px;
     left: 135px;
-    top: 2382px;
+    top: 120px;
+    /* border: 1px solid red; */
+}
+
+.pluses_head {
+    position: absolute;
+    width: 524px;
+    height: 50px;
+    left: 323px;
+    top: 0px;
+    font-family: DIN Pro;
+    font-size: 40px;
+    line-height: 50px;/* identical to box height */
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.one {
+    position: absolute;
+    width: 51.96px;
+    height: 52px;
+    border-bottom: 2px solid #F47821;
+    border-radius: 8px;
+    background-image: url(../img/one.png);
+    top: 110px;
+}
+
+
+.left {
+    left: 0;
+}
+
+.center {
+    left: 397px;
+}
+
+.right {
+    left: 794px;
+}
+
+.pluses_main {
+    position: absolute;
+    width: 262px;
+    height: 26px;
+    font-family: DIN Pro;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    top: 192px;
+    margin: 0;
+}
+
+.line {
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    top: 240px;
+    background-image: url(../img/line.png);
+}
+
+.pluses_text {
+    position: absolute;
+    width: 326px;
+    height: 105px;
+    top: 269px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #4E4D53;
+    margin: 0;
 }
 
 /* footer */
@@ -214,4 +318,216 @@ footer {
     left: 0px;
     top: 2916px;
     background: #161616;
+}
+
+.footer_inside {
+    left: 341px;
+    right: 432px;
+    /* border: 1px solid white; */
+}
+
+.footer_head {
+    position: absolute;
+    width: 453px;
+    height: 52px;
+    left: 494px;
+    top: 100px;
+    font-family: DIN Pro;
+    font-size: 40px;
+    line-height: 52px;/* identical to box height */
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.number {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    opacity: 0.23;
+    border: 1px solid #FFFFFF;
+    border-radius: 32px;
+    margin: 0;
+}
+
+.num {
+    position: absolute;
+    width: 12px;
+    height: 24px;
+    left: 26px;
+    top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;/* identical to box height */
+    text-align: center;
+    color: #F47821;
+    margin: 0;
+}
+
+.position1 {
+    position: absolute;
+    left: 341px;
+    top: 212px;
+    width: 667px;
+    height: 120px; 
+}
+
+.position2 {
+    position: absolute;
+    left: 341px;
+    top: 380px;
+    width: 667px;
+    height: 120px;
+}
+
+.position3 {
+    position: absolute;
+    left: 341px;
+    top: 548px;
+    width: 667px;
+    height: 120px;
+}
+
+.position4 {
+    position: absolute;
+    left: 341px;
+    top: 716px;
+    width: 667px;
+    height: 120px;
+}
+
+label {
+    position: absolute;
+    left: 92px;
+    top: 22px;
+    font-family: DIN Pro;
+    font-size: 16px;
+    line-height: 25px;/* identical to box height */
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
+
+.name {
+    width: 117px;
+    height: 25px;
+}
+
+.email {
+    width: 140px;
+    height: 25px;
+}
+
+.phone {
+    width: 63px;
+    height: 25px;
+}
+
+.textarea {
+    width: 575px;
+    height: 50px;
+}
+
+input[type='text'] {
+    position: absolute;
+    width: 224px;
+    height: 35px;
+    left: 92px;
+    top: 71px;
+    background: #161616;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;/* identical to box height */
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    opacity: 0.3;
+    border: none;
+}
+
+input[type='email'] {
+    position: absolute;
+    width: 202px;
+    height: 35px;
+    left: 92px;
+    top: 71px;
+    background: #161616;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;/* identical to box height */
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    opacity: 0.3;
+    border: none;
+}
+
+textarea {
+    position: absolute;
+    width: 575px;
+    height: 70px;
+    left: 92px;
+    top: 71px;
+    background: #161616;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;/* identical to box height */
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    opacity: 0.3;
+    border: none;
+}
+
+.line_form {
+    background-image: url(../img/line_form.png);
+    position: absolute;
+    width: 575px;
+    height: 2px;
+    left: 92px;
+    top: 118px;
+    background: #F7F8FA;
+    opacity: 0.1;
+}
+
+.after {
+    top: 153px;
+}
+
+input[type='submit'] {
+    position: absolute;
+    width: 574px;
+    height: 54px;
+    left: 433px;
+    top: 956px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 111px;
+
+    font-family: Gilroy;
+    font-size: 14px;
+    line-height: 17px;/* identical to box height */
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #F47821;
+}
+
+input[type='submit']:hover {
+    color: #FFFFFF;
+    background: #F47821;
+}
+
+.error {
+    top: 67px;
+    position: absolute;
+    left: 370px;
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
 }
